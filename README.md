@@ -1,88 +1,68 @@
-# 🗂️ File Sorter GUI
+# 📁 File Sorter
 
-A simple but powerful desktop app that automatically organizes files into folders based on their type.
-
-Built with Python and a GUI using tkinter.
+A simple Python GUI app that automatically organizes files into folders based on file type.
 
 ---
 
 ## 🚀 Features
 
-* 📂 Select any folder to organize
-* 🧠 Automatically sorts files by type
-* 🖼️ Supports images, videos, documents, music, and more
-* 📦 Handles unknown files by placing them in an "Other" folder
-* ⚡ Fast and lightweight — no external libraries required
-* 🖥️ Simple GUI (no command line needed)
+- Automatically sorts files into categories
+- Supports images, videos, documents, music, code, and more
+- Microsoft 365 file separation (Word, Excel, PowerPoint)
+- Creates folders automatically
+- Handles unknown files with an "Other" folder
+- Simple and clean Tkinter interface
 
 ---
 
-## 🧩 Categories Supported
+## 🖥️ How to Use
 
-* Images
-* Videos
-* Documents
-* Music
-* Compressed files
-* Executables
-* Code files
-* 3D Models
-* Fonts
-* Drive Images
+1. Open the app
+2. Click **Browse**
+3. Select a folder
+4. Click **Go**
+5. Files are automatically sorted
 
 ---
 
-## 🛠️ Installation
+## 📁 Supported Categories
 
-1. Install Python (version 3.x)
-2. Clone this repository:
+### 🖼️ Images
+png, jpg, jpeg, gif, webp, svg, bmp, tiff, heic
 
-```
-git clone https://github.com/Ljs2311/file-sorter.git
-cd file-sorter
-```
+### 🎥 Videos
+mp4, mov, avi, mkv, webm, flv, m4v
 
-3. Run the app:
+### 📄 Documents
+pdf, txt, rtf, md
 
-```
-python sorter.py
-```
+### 🧾 Microsoft 365
+- Word: doc, docx  
+- Excel: xls, xlsx  
+- PowerPoint: ppt, pptx  
 
----
+### 💻 Code
+- Python, JavaScript, Web, Backend, Config files
 
-## 📖 How to Use
+### 🎵 Music
+mp3, wav, flac, aac, ogg, m4a, opus, wma, aiff, midi
 
-1. Click **Browse**
-2. Select the folder you want to organize
-3. Click **Go**
-4. Done — your files will be sorted into folders automatically
+### 📦 Compressed
+zip, rar, 7z, tar, gz, bz2, xz, cab
 
----
-
-## ⚠️ Notes
-
-* The program will move files, not copy them
-* Existing folders will be reused if they already exist
-* Files with unknown types will be placed in an **Other** folder
+### ⚙️ Other
+Executables, installers, fonts, 3D models, disk images, design files, game files
 
 ---
 
-## 🔮 Future Improvements
+## ⚙️ Requirements
 
-* 📜 Activity log (see what files were moved)
-* 🧠 Smarter file detection
-* 🔁 Auto-sort mode (runs continuously)
-* 📊 Progress bar
-* 📦 Export as a standalone `.exe`
+- Python 3.x
+- Tkinter (included with Python)
 
 ---
 
-## 👤 Author
+## ▶️ Run from Source
 
-Logan Sneed
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
+```bash
+python file_sorter.py
